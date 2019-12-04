@@ -7,5 +7,5 @@
 {{ config(materialized='incremental') }}
 
 
-select current_timestamp ts, 1 as id
+select current_timestamp ts, 2 as id
 
